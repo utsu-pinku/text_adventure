@@ -1,0 +1,16 @@
+{
+    "branches": [{
+        "branch_num": "1",
+        "branch": "msg",
+        "options": ["A", "B", "C"],
+        "messages": ["msg1", "B was correct", "msg3"],
+        "correct_branch": "B"
+    },
+    {
+        "branch_num": "2",
+        "branch": "msg",
+        "options": ["A", "B", "C"],
+        "messages": ["msg4", "msg5", "C was correct"],
+        "correct_branch": "C"
+    }]
+}
