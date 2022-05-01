@@ -1,5 +1,6 @@
 {
     "death": "\n \n YOU ARE DEAD",
+    "error": "\n I'm sorry, I didn't catch that. Please select a path by choosing the appropriate letter. \n \n",
     "branches": [{
         "branch_num": "1",
         "branch": "msg",
