@@ -1,4 +1,5 @@
 {
+    "death": "\n \n YOU ARE DEAD",
     "branches": [{
         "branch_num": "1",
         "branch": "msg",
