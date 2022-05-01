@@ -4,10 +4,8 @@ def main():
     with open("database.json", "r") as read_file: # open an external file and put into 'read_file' variable
         database = json.load(read_file) # pass the raw json data into python so we can use it properly
 
-    name = input("please name your character: ")
     death= "\n \n YOU ARE DEAD"
     error = "I'm sorry, I didn't catch that. Please select a path by choosing the appropriate letter."
-
     def branch(branch_num): # create a reusable function for branches
         db_object = database["branches"][branch_num - 1] # find the branch in the branches array that we want to interact with
 
